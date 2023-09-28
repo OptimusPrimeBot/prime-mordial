@@ -16,26 +16,26 @@ const Table: React.FC = () => {
         {
           direction: 'up',
           timeFrame: '1m',
-          timeDetected: '14:50 UTC',
-          confidence: '40%',
+          timeDetected: '11:31 UTC - 11:57 UTC',
+          confidence: '53%',
         },
         {
           direction: 'Down',
           timeFrame: '1m,5m',
-          timeDetected: '17:50 UTC',
+          timeDetected: '12:36 UTC - 13:45 UTC',
           confidence: '50%',
         },
         {
-          direction: 'down',
+          direction: 'up',
           timeFrame: '5m',
-          timeDetected: '06:50 UTC',
+          timeDetected: '14:45 UTC- 16:15 UTC',
           confidence: '60%',
         },
         {
             direction: 'up',
             timeFrame: '5m',
-            timeDetected: '11:50 UTC',
-            confidence: '60%',
+            timeDetected: '11:20 UTC - 16:05 UTC',
+            confidence: '70%',
           },
       ];
 

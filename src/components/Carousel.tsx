@@ -16,8 +16,9 @@ const Carousel: React.FC = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Optimum Prime</h1>
+      <p> Version 1.0 Prime-ordial</p>
       <Slider {...settings}>
-        <Card complete={2} title="Step 1: Trailing" subText="Detect when on a lower timeframe trailing is occruing" />
+        <Card complete={2} title="Step 1: Trailing" subText="Detect when an op on a lower timeframe trailing is occuring" />
         <Card complete={0} title="Step 2: Mid op's"  subText="Detect mid Ops'"/>
         <Card complete={0} title="Step 3: False ops" subText="Detect false Op's " />
         <Card complete={0} title="Step 4: Optimum P"subText="Detect confidently a succeful OP" />

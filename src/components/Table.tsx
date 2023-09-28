@@ -42,7 +42,7 @@ const Table: React.FC = () => {
 
 
   return (
-    <div className="p-100 relative overflow-x-auto">
+    <div className=" relative overflow-x-auto">
     <h3 className="text-2xl font-bold tracking-tight text-gray-9200 sm:text-4xl">Bitcoin OP Detection</h3>
       <table className=" border-x-2 border border-slate-50 rounded-md w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-white-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -57,7 +57,7 @@ const Table: React.FC = () => {
         {tableEntries.map((entry, index) => (
             <tr key={index}>
               <td className={`px-4 py-2 ${
-                  entry.direction === 'up'? 'text-green-500' :'text-red-500'}`}>{entry.direction == 'up' ? <FontAwesomeIcon icon={faArrowUp} /> : <FontAwesomeIcon icon={faArrowDown} />}</td>
+                  entry.direction === 'up'? 'text-green-500' :'text-red-500'}`}>{entry.direction === 'up' ? <FontAwesomeIcon icon={faArrowUp} /> : <FontAwesomeIcon icon={faArrowDown} />}</td>
               <td className="px-4 py-2 text-gray-600 ">{entry.timeFrame}</td>
               <td className="px-4 py-2 text-gray-600 ">{entry.timeDetected}</td>
               <td className="px-4 py-2 text-gray-600 ">{entry.confidence}</td>

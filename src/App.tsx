@@ -10,19 +10,10 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyDs8uDC4yoqFQc4q49REqegE2GtvmyAGUg",
-  authDomain: "optimum-prime-ce126.firebaseapp.com",
-  projectId: "optimum-prime-ce126",
-  storageBucket: "optimum-prime-ce126.appspot.com",
-  messagingSenderId: "1029890817569",
-  appId: "1:1029890817569:web:5b72edffa7969344fced60"
-};
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
-function App() {
+const  App : React.FC = () => {
+  
 
 // Import the functions you need from the SDKs you need
 // TODO: Add SDKs for Firebase products that you want to use
@@ -32,7 +23,7 @@ function App() {
 
   return (
     <div className="p-10">
-      <div className="App">
+      <div className="grid grid-rows-3 grid-flow-col gap-4">
       <Carousel />
       <Table />
     </div>

@@ -24,6 +24,7 @@ const  App : React.FC = () => {
   return (
     <div className="p-10">
       <div className="grid grid-rows-3 grid-flow-col gap-4">
+
       <Carousel />
       <Table />
     </div>
